@@ -1,17 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Resume</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tyson Hu's Resume</title>
     <style>
         html, body {
             height: 100%;
             margin: 0;
             padding: 0;
+            overflow: hidden; /* Hides the scrollbar on the main page */
         }
         iframe {
-            width: 100%;
-            height: 100%;
-            border: none; /* Optional: removes the iframe border */
+            display: block; /* Removes default margin around the iframe */
+            width: 100vw; /* Full viewport width */
+            height: 100vh; /* Full viewport height */
+            border: none; /* Removes iframe border */
+            overflow: auto; /* Allows scrolling within the iframe */
         }
     </style>
 </head>
